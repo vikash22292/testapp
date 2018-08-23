@@ -1,0 +1,17 @@
+<p>
+  <strong>Title:</strong>
+  <%= @todo_list.title %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @todo_list.note %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @todo_list.status %>
+</p>
+
+<%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
+<%= link_to 'Back', todo_lists_path %>

@@ -10,13 +10,13 @@
   </head>
 
   <body>
+    <%= render 'shared/navbar' %>
     <% if notice %>
       <div class="alert alert-info"><%= notice %></div>
     <% elsif alert %>
       <div class="alert alert-warning"><%= alert %></div>
     <% end %>
     <div class="container">
-      <%= render 'shared/navbar' %>
       <%= yield %>
     </div>
   </body>
