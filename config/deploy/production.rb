@@ -8,7 +8,6 @@
 server "ec2-13-233-2-56.ap-south-1.compute.amazonaws.com", user: "ubuntu", roles: %w{app db web}
 
 
-
 # role-based syntax
 # ==================
 
